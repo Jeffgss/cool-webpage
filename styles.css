@@ -1,0 +1,89 @@
+body {
+  display: table;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 448px;
+  padding: 40px 40px 20px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #5f75e6;
+}
+
+.card input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #5a6fda;
+  outline: none;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.card input::-webkit-input-placeholder {
+  color: #5a6fda;
+}
+
+.card .card-a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card .card-a a {
+  color: #4b4390;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.5s;
+  width: auto;
+}
+
+.card a:hover {
+  color: #5a6fda;
+}
+
+.card button {
+  color: white;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  background: #8f69ce;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card button:hover {
+  background: #6958ba;
+}
+
+.card span {
+  color: #5a6fda;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+.card span a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin-left: 5px;
+  text-decoration: underline;
+}
